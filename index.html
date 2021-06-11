@@ -24,14 +24,41 @@
                 text-align: center;
                 color: lightcoral;
             }
+            #searchForm {
+                text-align: center;
+            }
+            #searchBar {
+                border-radius: 18px;
+                padding: 10px; 
+                width: 200px;
+                height: 5px;
+            }
         </style>
     </head>
     <body style="background-color: grey;">
         <div class="mainHeading">Welcome!</div>
+        <br>
         <div class="secondaryHeading">This page is currently a work in progress</div>
         <div class="thirdHeading">Fingers crossed for some development</div>
+        <br>
         <div style="text-align: center">
             <a href="https://www.linkedin.com/in/aaron-sum/">LinkedIn Profile</a>
         </div>
+        <br>
+        <div id="searchForm"> 
+            <form action="https://google.com/search">
+                <input type="text" name="q" id="searchBar">
+                <div>
+                    <input type="submit" value="Google Search">
+                </div>                
+            </form>
+        </div>
+        <br>
+        <form id="searchForm" action="https://www.google.com/images">
+            <input id="searchBar" type="text" name="q">
+            <div>
+                <input type="submit" value="Google Image Search">
+            </div>
+        </form>
     </body>
 </html>
