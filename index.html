@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>arroneous' github page</title>
+        <title>arroneous' webpage</title>
+        <!-- Add icon library from "https://www.w3schools.com/howto/howto_css_social_media_buttons.asp"-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             .mainHeading{
                 font-family: arial, sans-serif;
-                font-size: 36px;
+                font-size: 40px;
                 font-weight: bold;
                 text-align: center;
                 color: whitesmoke;
@@ -15,14 +17,14 @@
                 font-size: 22px;
                 font-style: italic;
                 text-align: center;
-                color: lightcoral;
+                color: whitesmoke;
             }
             .thirdHeading{
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 18px;
                 font-style: italic;
                 text-align: center;
-                color: lightcoral;
+                color: whitesmoke;
             }
             #searchForm {
                 text-align: center;
@@ -33,16 +35,36 @@
                 width: 200px;
                 height: 5px;
             }
+            .fa {
+                padding: 15px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+            }
+            .fa:hover {
+                opacity: 0.6;
+            }
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+            .fa-instagram {
+                background: #125688;
+                color: white;
+            }
         </style>
     </head>
-    <body style="background-color: grey;">
+    <body style="background-color: #252526;">
+        <br>
+        <br>
         <div class="mainHeading">Welcome!</div>
         <br>
-        <div class="secondaryHeading">This page is currently a work in progress</div>
-        <div class="thirdHeading">Fingers crossed for some development</div>
-        <br>
         <div style="text-align: center">
-            <a href="https://www.linkedin.com/in/aaron-sum/">LinkedIn Profile</a>
+            <a href="https://www.linkedin.com/in/aaron-sum/" rel="https://www.linkedin.com" class="fa fa-linkedin"></a>
+            &nbsp
+            <a href="https://www.instagram.com/an.er.ron/" rel="https://www.instagram.com" class="fa fa-instagram"></a>
         </div>
         <br>
         <div id="searchForm"> 
@@ -52,13 +74,19 @@
                     <input type="submit" value="Google Search">
                 </div>                
             </form>
+            <br> 
+            <form action="https://www.google.com/images">
+                <input id="searchBar" type="text" name="q">
+                <div>
+                    <input type="submit" value="Google Image Search">
+                </div>
+            </form>
         </div>
         <br>
-        <form id="searchForm" action="https://www.google.com/images">
-            <input id="searchBar" type="text" name="q">
-            <div>
-                <input type="submit" value="Google Image Search">
-            </div>
-        </form>
+        <br>
+        <div class="mainHeading">An Assortment Of Interests:</div>
+        <br>
+        <div class="secondaryHeading">This page is currently a work in progress</div>
+        <div class="thirdHeading">Check back periodically for changes</div>
     </body>
 </html>
