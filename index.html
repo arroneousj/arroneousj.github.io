@@ -4,6 +4,8 @@
         <title>arroneous' webpage</title>
         <!-- Add icon library from "https://www.w3schools.com/howto/howto_css_social_media_buttons.asp"-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google Material Icons https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <style>
             .mainHeading{
                 font-family: arial, sans-serif;
@@ -13,18 +15,79 @@
                 color: whitesmoke;
             }
             .secondaryHeading{
+                font-family: arial, sans-serif;
+                font-size: 28px;
+                font-weight: bold;
+                text-align: left;
+                color: whitesmoke;
+                padding-left: 10px;
+            }
+            .wipMain{
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 22px;
                 font-style: italic;
                 text-align: center;
                 color: whitesmoke;
             }
-            .thirdHeading{
+            .wipSecondary{
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 18px;
                 font-style: italic;
                 text-align: center;
                 color: whitesmoke;
+            }
+            table{
+                border: 3px solid whitesmoke;
+                border-collapse: collapse;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            td, th {
+                border: 1px solid whitesmoke;
+                padding: 4px;
+                font-family: 'Times New Roman', Times, serif;
+                color: whitesmoke;
+                text-align: center;
+            }
+            .fa {
+                padding: 15px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+                transition-duration: 0.2s;
+            }
+            .fa:hover {
+                opacity: 0.6;
+            }
+            .fa-linkedin {
+                background: #007bb5;
+                color: whitesmoke;
+            }
+            .fa-instagram {
+                background: #125688;
+                color: whitesmoke;
+            }
+            .btn {
+                background-color: #252526;
+                border: none;
+                border-radius: 50%;
+                padding: 3px; /* Some padding */
+                cursor: pointer; /* Mouse pointer on hover */
+                transition-duration: 0.2s;
+            }
+            .btn:hover {
+                /* opacity: 0.6; */
+                background-color: #89CFF0;
+            }
+            .material-icons.md-36 {
+                font-size: 36px;
+                color: whitesmoke;
+            }
+            .toc{
+                display: inline;
             }
             #searchForm {
                 text-align: center;
@@ -35,25 +98,6 @@
                 width: 200px;
                 height: 5px;
             }
-            .fa {
-                padding: 15px;
-                font-size: 30px;
-                width: 30px;
-                text-align: center;
-                text-decoration: none;
-                border-radius: 50%;
-            }
-            .fa:hover {
-                opacity: 0.6;
-            }
-            .fa-linkedin {
-                background: #007bb5;
-                color: white;
-            }
-            .fa-instagram {
-                background: #125688;
-                color: white;
-            }
         </style>
     </head>
     <body style="background-color: #252526;">
@@ -61,12 +105,14 @@
         <br>
         <div class="mainHeading">Welcome!</div>
         <br>
+        <!--Social Media Clickable Icons-->
         <div style="text-align: center">
             <a href="https://www.linkedin.com/in/aaron-sum/" rel="https://www.linkedin.com" class="fa fa-linkedin"></a>
             &nbsp
             <a href="https://www.instagram.com/an.er.ron/" rel="https://www.instagram.com" class="fa fa-instagram"></a>
         </div>
         <br>
+        <!-- Placeholder functionality of some Google search bars -->
         <div id="searchForm"> 
             <form action="https://google.com/search">
                 <input type="text" name="q" id="searchBar">
@@ -84,9 +130,78 @@
         </div>
         <br>
         <br>
+        <!-- Start of content for page -->
         <div class="mainHeading">An Assortment Of Interests:</div>
         <br>
-        <div class="secondaryHeading">This page is currently a work in progress</div>
-        <div class="thirdHeading">Check back periodically for changes</div>
+        <!-- Buttons using Material Icons linking to items on the page -->
+        <div style="text-align: center;">
+            <form class="toc" action="#snowboard" title="Go to section about snowboarding">
+                <button class="btn"><span class="material-icons md-36">snowboarding</span></button>
+            </form>
+            &nbsp
+            <form class="toc" action="#denim" title="Go to section about jeans">
+                <button class="btn"><span class="material-icons md-36">checkroom</span></button>
+            </form>
+            &nbsp
+            <form class="toc" action="#watch" title="Go to section about watches">
+                <button class="btn"><span class="material-icons md-36">watch</span></button>
+            </form>
+            &nbsp
+            <form class="toc" action="#guitar" title="Go to section about guitars">
+                <button class="btn"><span class="material-icons md-36">piano</span></button>
+            </form>
+        </div>
+        <br>
+        <!-- WORK IN PROGRESS disclaimer -->
+        <div class="wipMain">This page is currently a work in progress</div>
+        <div class="wipSecondary">Check back periodically for changes</div>
+        <br>
+        <br>
+        <!-- Item 1 -->
+        <div class="secondaryHeading" id="snowboard">Getting Technical With Snowboards. </div>
+        <br>
+        <!-- Snowboard Spec Details -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Length (cm)</th>
+                    <th>Effective Edge (mm)</th>
+                    <th>Waist (cm)</th>
+                    <th>Nose/Tail (cm)</th>
+                    <th>Sidecut (m)</th>
+                    <th>Max Stance (cm/in)</th>
+                    <th>Suggested Rider Weight (lbs/kg)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CAPiTA</td>
+                    <td>Outerspace Living 20/21</td>
+                    <td>154</td>
+                    <td>1170</td>
+                    <td>24.8</td>
+                    <td>29.1/29.1</td>
+                    <td>7.90</td>
+                    <td>63.5/25.0</td>
+                    <td>120-180/54-81</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <!-- Item 2 -->
+        <div class="secondaryHeading" id="denim">De Nimes Equals Denim!? </div>
+        <br>
+        <br>
+        <!-- Item 3 -->
+        <div class="secondaryHeading" id="watch">Let's Talk About Watches! </div>
+        <img src="https://www.alange-soehne.com/sites/default/files/2018-11/alangesoehne-zeitwerk-striking-time-145029-weissgold-1466558-1904x1428-lg_0.jpg" alt="A. Lange & Söhne Striking Time, 145.029" width="280">
+        <img src="https://content.rolex.com/dam/model-page/gallery/m116400gv-0001/model-page-family-milgauss_m116400gv-0001_amb_001_medium_04_portrait.jpg?imwidth=420" alt="Rolex Milgauss Watch, Black Dial, M116400GV-0001" width="210">
+        <br>
+        <br>
+        <!-- Item 4 -->
+        <div class="secondaryHeading" id="guitar">Do You Strum For Fun? </div>
     </body>
 </html>
