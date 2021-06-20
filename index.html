@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>arroneous' webpage</title>
+        <!-- git push --set-upstream origin temp (or master?) -->
         <!-- Add icon library from "https://www.w3schools.com/howto/howto_css_social_media_buttons.asp"-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Google Material Icons https://google.github.io/material-design-icons/#icon-font-for-the-web -->
@@ -21,6 +22,28 @@
                 text-align: left;
                 color: whitesmoke;
                 padding-left: 10px;
+            }
+            .thirdHeading{
+                font-family: arial, sans-serif;
+                font-size: 24px;
+                font-weight: bold;
+                text-align: left;
+                color: whitesmoke;
+                padding-left: 12px;
+            }
+            .paragraphMain{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                text-align: left;
+                color: whitesmoke;
+                padding-left: 12px;
+            }
+            .paragraphSecondary{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                text-align: left;
+                color: whitesmoke;
+                padding-left: 24px;
             }
             .wipMain{
                 font-family: 'Times New Roman', Times, serif;
@@ -104,11 +127,11 @@
     <body style="background-color: #252526;">
         <br>
         <br>
-        <div class="mainHeading">Welcome!</div>
+        <div class="mainHeading" id="topOfPage">Welcome!</div>
         <br>
         <!-- Placeholder for intro blurb -->
         <div class="wipMain">My goal is to utilze this as a motivator to create a webpage.</div>
-        <div class="wipMain">Allowing me to develop a basic understanding of HTML and git.</div>
+        <div class="wipMain">Allowing me to develop a basic understanding of HTML and Git.</div>
         <div class="wipMain">Nothing too fancy or serious aesthetic or content wise.</div>
         <br>
         <!--Social Media Clickable Icons-->
@@ -165,8 +188,13 @@
         <br>
         <!-- Item 1 -->
         <div class="secondaryHeading" id="snowboard">Getting Technical With Snowboards. </div>
-        <br>
+        <p class="paragraphMain">
+            The first item on the list is snowboarding. It's unfortunate that the winter season is so short.
+        </p>
         <div class="thirdHeading" id="s_snowboard">The Snowboard </div>
+        <p class="paragraphSecondary">
+            I picked up a new snowboard towards the end of the 20/21 
+        </p>
         <br>
         <!-- Snowboard Spec Details -->
         <table>
@@ -199,9 +227,13 @@
         </table>
         <br>
         <div class="thirdHeading" id="s_boots">Snowboard Boots </div>
-        <br>
+        <p class="paragraphSecondary">
+            Next up we'll talk about what might, debatably, be the most important part of your snowboard setup. Your snowboard boots! 
+        </p>
         <div class="thirdHeading" id="s_binding">Snowboard Bindings </div>
-        <br>
+        <p class="paragraphSecondary">
+            Last item one needs to take into consideration when it comes to setting up your snowboard would be your bindings. 
+        </p>
         <!-- Item 2 -->
         <div class="secondaryHeading" id="denim">De Nimes Equals Denim!? </div>
         <br>
@@ -214,5 +246,10 @@
         <br>
         <!-- Item 4 -->
         <div class="secondaryHeading" id="guitar">Do You Strum For Fun? </div>
+        <br>
+        <div class="to_top" style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 18px;">
+            <a href="#topOfPage" title="return to top of page">top</a>
+        </div>
+        
     </body>
 </html>
