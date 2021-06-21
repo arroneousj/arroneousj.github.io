@@ -1,7 +1,7 @@
 # arroneousj.github.io
 
-👋 Hi, I’m @arroneousj
-🌱 I’m currently learning HTML
+- 👋 Hi, I’m @arroneousj
+- 🌱 I’m currently learning HTML
 
 Goals:
 - Have fun
