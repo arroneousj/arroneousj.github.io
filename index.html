@@ -17,19 +17,19 @@
             }
             .secondaryHeading{
                 font-family: arial, sans-serif;
-                font-size: 28px;
-                font-weight: bold;
-                text-align: left;
-                color: whitesmoke;
-                padding-left: 10px;
-            }
-            .thirdHeading{
-                font-family: arial, sans-serif;
-                font-size: 24px;
+                font-size: 30px;
                 font-weight: bold;
                 text-align: left;
                 color: whitesmoke;
                 padding-left: 12px;
+            }
+            .thirdHeading{
+                font-family: arial, sans-serif;
+                font-size: 26px;
+                font-weight: bold;
+                text-align: left;
+                color: whitesmoke;
+                padding-left: 24px;
             }
             .paragraphMain{
                 font-family: 'Times New Roman', Times, serif;
@@ -112,6 +112,13 @@
             .toc{
                 display: inline;
             }
+            caption {
+                caption-side: bottom;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 16px;
+                color: whitesmoke;
+                padding: 4px;
+            }
             #searchForm {
                 text-align: center;
                 /* display: inline; */
@@ -136,9 +143,9 @@
         <br>
         <!--Social Media Clickable Icons-->
         <div style="text-align: center">
-            <a href="https://www.linkedin.com/in/aaron-sum/" rel="https://www.linkedin.com" class="fa fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/aaron-sum/" rel="https://www.linkedin.com" class="fa fa-linkedin" title="LinkedIn"></a>
             &nbsp
-            <a href="https://www.instagram.com/an.er.ron/" rel="https://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https://www.instagram.com/an.er.ron/" rel="https://www.instagram.com" class="fa fa-instagram" title="Instagram"></a>
         </div>
         <br>
         <!-- Placeholder functionality of some Google search bars // MIGHT REMOVE -->
@@ -161,6 +168,8 @@
         <br>
         <!-- Start of content for page -->
         <div class="mainHeading">An Assortment Of Interests:</div>
+        <br>
+        <div class="wipMain">Just going to talk about some of the things that I am mildly obsessed about.</div>
         <br>
         <!-- Buttons using Material Icons linking to items on the page -->
         <div style="text-align: center;">
@@ -188,58 +197,108 @@
         <br>
         <!-- Item 1 -->
         <div class="secondaryHeading" id="snowboard">Getting Technical With Snowboards. </div>
-        <p class="paragraphMain">
-            The first item on the list is snowboarding. It's unfortunate that the winter season is so short.
-        </p>
-        <div class="thirdHeading" id="s_snowboard">The Snowboard </div>
-        <p class="paragraphSecondary">
-            I picked up a new snowboard towards the end of the 20/21 
-        </p>
-        <br>
+        <div class="paragraphMain">
+            <p>
+                The first item on the list is snowboarding! I returned to snowboarding recently using a secondhand board that my father bought when he started snowboarding.
+                Built sometime in the mid 90s. I could not find much detail on the board itself.
+                However, with a length of 160cm, it was both too long and too stiff for the type of riding that I wanted to do.
+                Towards the end of the 20/21 season. When end of season sales started. I picked up a new snowboard as well as bindings.
+                Below is a table of the specs for the board for those more keen on those details.
+            </p>
+        </div>
         <!-- Snowboard Spec Details -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Brand</th>
-                    <th>Model</th>
-                    <th>Length (cm)</th>
-                    <th>Effective Edge (mm)</th>
-                    <th>Waist (cm)</th>
-                    <th>Nose/Tail (cm)</th>
-                    <th>Sidecut (m)</th>
-                    <th>Max Stance (cm/in)</th>
-                    <th>Suggested Rider Weight (lbs/kg)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CAPiTA</td>
-                    <td>Outerspace Living 20/21</td>
-                    <td>154</td>
-                    <td>1170</td>
-                    <td>24.8</td>
-                    <td>29.1/29.1</td>
-                    <td>7.90</td>
-                    <td>63.5/25.0</td>
-                    <td>120-180/54-81</td>
-                </tr>
-            </tbody>
-        </table>
+        <div>
+            <table>
+                <caption>Table 1: Snowboard Specifications</caption>
+                <thead>
+                    <tr>
+                        <th>Brand</th>
+                        <th>Model</th>
+                        <th>Shape</th>
+                        <th>Profile</th>
+                        <th>Length (cm)</th>
+                        <th>Flex (/10)</th>
+                        <th>Effective Edge (mm)</th>
+                        <th>Waist (cm)</th>
+                        <th>Nose/Tail (cm)</th>
+                        <th>Sidecut (m)</th>
+                        <th>Max Stance (cm/in)</th>
+                        <th>Suggested Rider Weight (lbs/kg)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CAPiTA</td>
+                        <td>Outerspace Living 20/21</td>
+                        <td>True Twin</td>
+                        <td>Resort V3 (Cam-Rock)</td>
+                        <td>154</td>
+                        <td>5</td>
+                        <td>1170</td>
+                        <td>24.8</td>
+                        <td>29.1/29.1</td>
+                        <td>7.90</td>
+                        <td>63.5/25.0</td>
+                        <td>120-180/54-81</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="paragraphMain">
+            <p>
+                Compared with my old board. The difference in length was definitely noticeable. The board retained less speed and I missed the stability of my previous board.
+                <br>The bindings that I chose to pick up with the snowboard were the
+                <a href="https://unionbindingcompany.com/products/force" rel="https://unionbindingcompany.com" style="color: whitesmoke;" title="Product Page">20/21 Union Force Bindings</a>.
+                Combined, I really liked how locked in and reponsive the snowboard felt underfoot. However, with the stiffer bindings. I felt limited in my ability to press and 
+                "<a href="https://www.youtube.com/watch?v=6Pu0ANT7Fc4&ab_channel=HINAKOS" rel="https://youtube.com" style="color: whitesmoke;" title="Example video 17-18season hina snowboard">butter</a>".
+                As a work around, I have played around with not cranking my ankle straps all the way down to increase the amount of flex in the bindings.
+                Allowing me to more easily project my weight out over my nose and tail.
+                Now I do not necessarily recommend you do the same as I can't guarantee there being risks that I haven't realized.
+                But it can be something you could look to consider trying if this is an issue you're running into.
+            </p>
+        </div>
+        <br>
+        <div class="thirdHeading" id="s_snowboard">The Snowboard </div>
+        <div class="paragraphSecondary">
+            <p>
+                So what do all these specifications mean and why might they be important you ask?
+                <br> - Correct Sizing (Length, Waist, Stance Width, Rider Weight, Flex)
+                <br>It could probably be inferred from above that the a longer board rides faster and rides more stable at speed.
+                <br> - Shape (True Twin, Directional Twin, Directional, Powder, Volume Shifted)
+                <br> - Profile (Camber, Reverse Camber (Rocker), Flat, Hybrid)
+                <br> - Extra nerdy: Efective Edge, Sidecut Radius, Edge Tech
+            </p>
+        </div>
         <br>
         <div class="thirdHeading" id="s_boots">Snowboard Boots </div>
-        <p class="paragraphSecondary">
-            Next up we'll talk about what might, debatably, be the most important part of your snowboard setup. Your snowboard boots! 
-        </p>
+        <div class="mainBlock" id="s_mainBlock"> </div>
+        <div class="paragraphSecondary">
+            <p>
+                Next up we'll talk about what might, debatably, be the most important part of your snowboard setup. Your snowboard boots! 
+            </p>
+        </div>
         <div class="thirdHeading" id="s_binding">Snowboard Bindings </div>
-        <p class="paragraphSecondary">
-            Last item one needs to take into consideration when it comes to setting up your snowboard would be your bindings. 
-        </p>
+        <div class="paragraphSecondary">
+            <p>
+                Last item one needs to take into consideration when it comes to setting up your snowboard would be your bindings. 
+            </p>
+        </div>
         <!-- Item 2 -->
         <div class="secondaryHeading" id="denim">De Nimes Equals Denim!? </div>
+        <div class="mainBlock" id="d_mainBlock">
+
+        </div>
         <br>
         <br>
         <!-- Item 3 -->
         <div class="secondaryHeading" id="watch">Let's Talk About Watches! </div>
+        <div class="paragraphMain">
+            <p>
+                Mechanical watches: Swiss Lever Escapement, Co-Axial Escapement, Spring Drive
+                <br>Grail Watch Brands: Patek Philippe, Vacheron Constantin, Audemars Piguet
+                <br>Rather Grail Watch: A. Lange & Söhne Datograph Perpetual Tourbillon
+            </p>
+        </div>
         <img src="https://mediastorage.richemont.com/damdatastore/PrD/als/14/66/1466877.png?impolicy=cropresize&cropheight=1230&height=1210&cropwidth=800&width=800&type=normal" alt="Watch, A. Lange & Söhne DATOGRAPH PERPETUAL TOURBILLON, Platinum with Black Dial, 740.036" width="140">
         <img src="https://content.rolex.com/dam/model-page/gallery/m116400gv-0001/model-page-family-milgauss_m116400gv-0001_amb_001_medium_04_portrait.jpg?imwidth=420" alt="Watch, Rolex Milgauss, Black Dial, M116400GV-0001" width="210">
         <br>
