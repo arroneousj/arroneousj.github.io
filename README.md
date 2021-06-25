@@ -16,3 +16,20 @@ Note to self:
  - Current Denim
  - Watch Wishlist
  - Guitars
+
+_____________________________________________________________
+git add .
+git commit -m "message"
+git commit -am "combnined"
+
+git pull
+git push
+
+git log
+ - git reset --hard <commit>
+ - git reset --hard origin/master
+ 
+ git branch
+ git checkout -b <new branch name>
+ git checkout <branch name>
+ git merge <other branch name>
