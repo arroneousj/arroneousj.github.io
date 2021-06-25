@@ -1,7 +1,7 @@
 # arroneousj.github.io
 
-- 👋 Hi, I’m @arroneousj
-- 🌱 I’m currently learning HTML
+👋 Hi, I’m @arroneousj \
+🌱 I’m currently learning HTML
 
 Goals:
 - Have fun
@@ -20,14 +20,14 @@ Note to self:
 _____________________________________________________________
 git add . \
 git commit -m "message" \
-git commit -am "combnined" \
+git commit -am "combnined"
 
 git pull \
-git push \
+git push
 
 git log \
  - git reset --hard <commit> \
- - git reset --hard origin/master \
+ - git reset --hard origin/master
  
  git branch \
  git checkout -b <new branch name> \
