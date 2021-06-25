@@ -18,18 +18,18 @@ Note to self:
  - Guitars
 
 _____________________________________________________________
-git add .
-git commit -m "message"
-git commit -am "combnined"
+git add . 
+git commit -m "message" 
+git commit -am "combnined" 
 
-git pull
-git push
+git pull 
+git push 
 
-git log
- - git reset --hard <commit>
- - git reset --hard origin/master
+git log 
+ - git reset --hard <commit> 
+ - git reset --hard origin/master 
  
- git branch
- git checkout -b <new branch name>
- git checkout <branch name>
- git merge <other branch name>
+ git branch 
+ git checkout -b <new branch name> 
+ git checkout <branch name> 
+ git merge <other branch name> 
